@@ -1,17 +1,26 @@
-# 💬Whats App Chat Analysis📊
-A Streamlit web app that analyzes WhatsApp chat exports to uncover user activity patterns, message statistics, media sharing behavior, and more. Built using Python, Pandas, Regex, and Matplotlib.
+# 💬 WhatsApp Chat Analysis 📊
 
-# 🔍 What This Project Does?
+A **Streamlit web app** that analyzes WhatsApp chat exports to uncover user activity patterns, message statistics, media sharing behavior, and more.
+
+> Built with Python, Pandas, Regex, and Matplotlib.
+
+🔗 **Live App**: [Click here to try it out](https://lambf6nmwdagbkhfwuzkfs.streamlit.app/)  
+📁 Sample Chat File: chat.txt`uploaded
+
+---
+
+## 🔍 What This Project Does
 
 This tool takes your exported WhatsApp chat file and extracts valuable insights such as:
-📊 Counting total messages and words exchanged
-📸 Detecting number of media files shared
-🔗 Identifying how many links were shared in the chat
-👥 Highlighting the most active participants
-⏳ Showing time-based trends (yearly, monthly, daily, hourly)
-🧹 Cleaning and structuring raw exported .txt chat files
-🗂️ Preparing data for further analysis and visualization
-🤖 Removing sensitive info like phone numbers automatically
+
+- 📊 Total messages and word count
+- 📸 Media files shared
+- 🔗 Links shared
+- 👥 Most active participants
+- 📆 Time-based trends (yearly, monthly, daily, hourly)
+- 🧹 Cleans and structures raw `.txt` chat exports
+- 🗂️ Prepares data for visual storytelling
+- 🔒 Automatically removes sensitive info like phone numbers
 
 Perfect for curious individuals, researchers, or anyone interested in understanding their digital conversations better.
 
@@ -44,13 +53,13 @@ whatsapp-chat-analyzer/
 ├── App.py              # Streamlit frontend app
 ├── Preprocessor.py     # Handles cleaning and structuring of data
 ├── helper.py           # Statistical computations and utilities
-├── sample_chat.txt     # (Optional) Example WhatsApp chat file
+├── chat.txt     # (Optional) Example WhatsApp chat file
 └── README.md           # Project documentation
 
 
 # 🗞️ File Descriptions
 
-App.py Main Streamlit app that manages file upload, user inputs, and visual output.
+app.py Main Streamlit app that manages file upload, user inputs, and visual output.
 
 Preprocessor.py Cleans raw text and extracts structured information (users, messages, timestamps, etc.).
 
@@ -61,13 +70,14 @@ helper.py Contains functions to calculate total messages, word counts, media/lin
 
 Make sure you have Python 3.7+ and pip installed.
 
-# 🔧 Step 1: Clone the Repository
+### 🔧 Step 1: Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/whatsapp-chat-analyzer.git
-cd whatsapp-chat-analyzer
+```bash
+git clone https://github.com/Sarthak18-DA/What-s-App-Chat-Analysis-.git
+cd What-s-App-Chat-Analysis-
 
 # 📦 Step 2: Install Required Packages
-
+pip install -r requirements.txt
 pip install streamlit pandas matplotlib urlextract
 
 # ▶️ Step 3: Run the Streamlit App
@@ -83,9 +93,24 @@ You’ll see the app open in your default web browser.
 3. Choose "Without Media".
 4. Transfer the .txt file to your computer and upload it in the Streamlit app.
 
+# 👤 About the Author
 
-# 🚀 Try the App Live
+Sarthak More – Data Analyst | Streamlit/PowerBI Developer | Python Enthusiast
+Hi there! 👋 I'm Sarthak More, a data analyst passionate about transforming raw data into interactive and insightful web applications. This WhatsApp Chat Analyzer project reflects my interest in combining Python, Streamlit, and data science to create tools that make everyday data more understandable and fun to explore.
 
-👉 [Click here to open the WhatsApp Chat Analyzer]()
+# 🔍 What I Do:
 
-> *(Replace the URL above with your actual Streamlit app deployment link)*
+Develop interactive dashboards using Streamlit and Power BI
+
+Clean, analyze, and visualize data using Python, Pandas, Matplotlib, and SQL
+
+Create real-world projects focused on user behavior, business metrics, and analytics
+
+📫 Let’s Connect:
+
+GitHub: @Sarthak18-DA
+
+LinkedIn: Sarthak More
+
+🛠️ Stay Tuned!
+I’m constantly working on new ideas, tools, and data experiments. Star ⭐ this repo and follow me for more!
