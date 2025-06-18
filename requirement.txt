@@ -4,4 +4,3 @@ matplotlib
 wordcloud
 seaborn
 emoji
-collections
