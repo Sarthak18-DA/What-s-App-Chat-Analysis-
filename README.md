@@ -70,9 +70,9 @@ helper.py Contains functions to calculate total messages, word counts, media/lin
 
 Make sure you have Python 3.7+ and pip installed.
 
-### 🔧 Step 1: Clone the Repository
+# 🔧 Step 1: Clone the Repository
 
-```bash
+bash
 git clone https://github.com/Sarthak18-DA/What-s-App-Chat-Analysis-.git
 cd What-s-App-Chat-Analysis-
 
@@ -108,9 +108,9 @@ Create real-world projects focused on user behavior, business metrics, and analy
 
 📫 Let’s Connect:
 
-GitHub: @Sarthak18-DA
+**GitHub: @Sarthak18-DA**
 
-LinkedIn: Sarthak More
+**LinkedIn: Sarthak More**
 
 🛠️ Stay Tuned!
 I’m constantly working on new ideas, tools, and data experiments. Star ⭐ this repo and follow me for more!
